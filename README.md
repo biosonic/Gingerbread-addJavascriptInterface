@@ -2,7 +2,7 @@
 
 Fix for WebView JavascriptInterface ( addJavascriptInterface ) on Gingerbread Androids 2.3 .
 
-This fix uses JavaScript's console.log as fail-safe.
+On Gingerbread this fix uses JavaScript's console.log as fail-safe. On Not-Gingerbread devices stadard JavascriptInterface is in use.
 
 KeyWords: "addJavascriptInterface not working broken error"
 
