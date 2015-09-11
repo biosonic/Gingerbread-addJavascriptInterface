@@ -28,7 +28,7 @@ Use it as decorator for WebView.
 In [some layout].xlm instead of using  WebView use WebViewFix.
 ```
 // xml  
-< WebViewFix
+<WebViewFix
   android:id="@+id/wv"
   android:layout_width="match_parent"
   android:layout_height="match_parent"/>
