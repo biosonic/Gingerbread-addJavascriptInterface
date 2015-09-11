@@ -27,7 +27,7 @@ Use it as decorator for WebView.
 
 In [some layout].xlm instead of using  WebView use WebViewFix.
 ```
-// example  
+// xml  
 < WebViewFix
   android:id="@+id/wv"
   android:layout_width="match_parent"
@@ -36,6 +36,7 @@ In [some layout].xlm instead of using  WebView use WebViewFix.
 
 In activity use it as you use regular JavaScriptInterface
 ```
+// Java
 WebViewFix mWebView = (WebViewFix) findViewById(R.id.wv);
 mWebView.getSettings().setJavaScriptEnabled(true);
 mWebView.addJavascriptInterface(new Object(){
@@ -48,6 +49,7 @@ mWebView.addJavascriptInterface(new Object(){
 
 On the JavaScript side use it as regular JavaScriptInterface by calling object's method:
 ```
+// JavaScript
 window.exampleInterface.exampleMethod("It works");
 ```
 
