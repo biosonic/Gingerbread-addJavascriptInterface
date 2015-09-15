@@ -21,6 +21,8 @@ dependencies {
 
 ## Usage
 
+> at this moment inteface works only with passed STRING as parametar
+
 Download WebViewFix.java to your project.
 
 Use it as decorator for WebView. 
